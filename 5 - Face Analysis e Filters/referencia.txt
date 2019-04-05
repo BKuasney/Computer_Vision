@@ -1,0 +1,8 @@
+para instalar dlib basta "python -m pip install dlib"
+provavelmente ocorrerá ocorrerá um erro sobre CMake
+precisará então instalar o CMake:
+  download: https://cmake.org/download/
+  opção: cmake-3.14.1-win32-x86.msi
+  durante a instalação: Adicionar ao PATH
+
+depois de concluir a instalação fazer novamente python -m pip install dlib
