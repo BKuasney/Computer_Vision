@@ -208,7 +208,7 @@ cap = cv2.VideoCapture(0)
 # dlibOn controls if use dlib's facial landmark detector (better)
 # or use HAAR Cascade Classifiers (faster)
 
-filter_image =  "Trump.jpg" ### Put your image here!
+filter_image =  "bonossauro.png" ### Put your image here!
 dlibOn = False
 
 while True:
