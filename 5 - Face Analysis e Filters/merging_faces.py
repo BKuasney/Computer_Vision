@@ -180,8 +180,8 @@ def swappy(image1, image2):
 
 
 ## Enter the paths to your input images here
-image1 = cv2.imread('Hillary.jpg')
-image2 = cv2.imread('Trump.jpg')
+image1 = cv2.imread('therock.jpg')
+image2 = cv2.imread('trump.jpg')
 
 swapped = swappy(image1, image2)
 cv2.imshow('Face Swap 1', swapped)
