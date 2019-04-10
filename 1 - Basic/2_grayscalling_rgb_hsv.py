@@ -4,7 +4,7 @@ import os
 import cv2
 
 image = cv2.imread('./images/input.jpg')
-#image = cv2.imread('demo_3.jpg')
+image = cv2.imread('teste.png')
 
 # verify if image is RGB
 B, G, R = image[0,0]
