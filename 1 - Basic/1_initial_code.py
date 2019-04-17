@@ -4,7 +4,7 @@ import pandas as pd
 import pathlib
 
 # load image using imread
-input = cv2.imread('./images/input.jpg')
+input = cv2.imread('input.jpg')
 
 # Load an image on window and wait to close
 # hello world is the title window
