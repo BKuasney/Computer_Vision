@@ -3,8 +3,8 @@ import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
-image = cv2.imread('./images/input.jpg')
-image = cv2.imread('./images/tobago.jpg')
+image = cv2.imread('input.jpg')
+image = cv2.imread('tobago.jpg')
 
 # calcHist(images, channels, mask, histSize, ranges)s
 histogram = cv2.calcHist([image],[0], None, [256], [0,256])
