@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import cv2
 
-image = cv2.imread('./images/scan.jpg')
+image = cv2.imread('scan.jpg')
 cv2.imshow('Original', image)
 cv2.waitKey()
 quit()
