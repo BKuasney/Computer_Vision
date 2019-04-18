@@ -5,7 +5,7 @@ import cv2
 
 # import a simple image with 3 black squares
 image = cv2.imread('shapes.jpg')
-image = cv2.imread('shapes_donnut.jpg')
+image = cv2.imread('shapes_donut.jpg')
 cv2.imshow('Original', image)
 cv2.waitKey()
 
