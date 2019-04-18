@@ -183,11 +183,12 @@ def swappy(image1, image2):
 image1 = cv2.imread('therock.jpg')
 image2 = cv2.imread('trump.jpg')
 
+
 swapped = swappy(image1, image2)
 cv2.imshow('Face Swap 1', swapped)
 
-swapped = swappy(image2, image1)
-cv2.imshow('Face Swap 2', swapped)
+#swapped = swappy(image2, image1)
+#cv2.imshow('Face Swap 2', swapped)
 
 cv2.waitKey(0)
 
