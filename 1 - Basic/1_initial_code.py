@@ -18,3 +18,4 @@ print('Height of Image {} pixels'.format(int(input.shape[1])))
 
 # to save a image
 cv2.imwrite('./Output/output.jpg', input)
+asd
