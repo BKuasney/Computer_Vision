@@ -1,0 +1,4 @@
+https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10
+
+referencia 2:
+https://github.com/pythonlessons/TensorFlow-object-detection-tutorial
