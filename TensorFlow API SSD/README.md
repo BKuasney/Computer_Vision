@@ -33,7 +33,7 @@ LabelImg download link
 if you are training your own classifier, you will replace the following code in generate_tfrecord.py:
 
 
-# TO-DO replace this with label map
+### TO-DO replace this with label map
 ```
 def class_text_to_int(row_label):
 if row_label == 'c':
