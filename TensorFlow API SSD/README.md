@@ -9,9 +9,9 @@
 
 * Split data into train and test samples.
   * Training data should be around 80% and test around 20%
-* Generate TF records from these splits
 
-		* This tutorial uses the xml_to_csv.py and generate_tfrecord.py scripts, with some slight modifications to work with our directory structure.
+* Generate TF records from these splits
+    * This tutorial uses the xml_to_csv.py and generate_tfrecord.py scripts, with some slight modifications to work with our directory structure.
 		* First, the image .xml data will be used to create .csv files containing all the data for the train and test images. From the main folder, if you are using the same file structure issue the following command in command prompt: python xml_to_csv.py.
 		* This creates a train_labels.csv and test_labels.csv file in the images folder.
 		* This will be create too a test.record and a train.record file in the images folder.
