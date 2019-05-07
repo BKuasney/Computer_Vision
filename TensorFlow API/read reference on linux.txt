@@ -1,0 +1,25 @@
+# Clone yout existing CV environment to avoid re-installing tones of packages and libraries
+source activate cv
+conda create --name <tfod> --clone base
+sudo apt-get install protobuf-compiler python-pil python-lxml python-tk
+pip install --user Cython
+pip install --user contextlib2
+pip install --user jupyter
+pip install --user matplotlib
+cd
+
+# create this directory in your home folder
+mkdir models
+git clone https://github.com/cocodataset/cocoapi.git
+cd cocoapi/PythonAPI
+make
+cp -r pycocotools /home/deeplearningcv/models/models/research
+
+# from tensorflow/model/research
+wget -0 protobuf.zip https://github.com/google/protobuf/releases/downaload/v3.0.0/protoc-3.0.0-linux-x86_64.zip
+unzip protobuf.zip
+protoc -I=./ --python_out=./ object_detection/protos/*proto
+
+# from tensorflow/models/research/ lets run the rest to make sure everything works
+export PYTHONPATH=$PYTHONPAT:'pwd':'pdw'/slim
+python object_detection/builders/model_builder_test.py
