@@ -11,11 +11,11 @@
   * Training data should be around 80% and test around 20%
 
 * Generate TF records from these splits
-    * This tutorial uses the xml_to_csv.py and generate_tfrecord.py scripts, with some slight modifications to work with our directory structure.
-		* First, the image .xml data will be used to create .csv files containing all the data for the train and test images. From the main folder, if you are using the same file structure issue the following command in command prompt: python xml_to_csv.py.
-		* This creates a train_labels.csv and test_labels.csv file in the images folder.
-		* This will be create too a test.record and a train.record file in the images folder.
-		* Will be create too a labelmap.pbtxt in the training folder with labelled classification
+  * This tutorial uses the xml_to_csv.py and generate_tfrecord.py scripts, with some slight modifications to work with our directory structure.
+	* First, the image .xml data will be used to create .csv files containing all the data for the train and test images. From the main folder, if you are using the same file structure issue the following command in command prompt: python xml_to_csv.py.
+	* This creates a train_labels.csv and test_labels.csv file in the images folder.
+	* This will be create too a test.record and a train.record file in the images folder.
+	* Will be create too a labelmap.pbtxt in the training folder with labelled classification
 
 * Setup a .config file for the model of choice (using transfer learning)
   * We can use a pre-treinned model such as faster_rcnn_inception_v2_coco.config to apply transfer learning (OR any other on the observation image about COCO)
