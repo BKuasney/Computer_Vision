@@ -1,0 +1,28 @@
+$ python deep_learning_object_detection.py
+	--prototxt MobileNetSSD_deploy.prototxt.txt
+	--model MobileNetSSD_deploy.caffemodel --image images/example_01.jpg 
+
+
+$ python deep_learning_object_detection.py
+	--prototxt MobileNetSSD_deploy.prototxt.txt
+	--model MobileNetSSD_deploy.caffemodel --image images/example_02.jpg 
+
+
+$ python deep_learning_object_detection.py
+	--prototxt MobileNetSSD_deploy.prototxt.txt
+	--model MobileNetSSD_deploy.caffemodel --image images/example_03.jpg
+
+
+$ python deep_learning_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt
+	--model MobileNetSSD_deploy.caffemodel --image images/example_04.jpg 
+
+
+$ python deep_learning_object_detection.py
+	--prototxt MobileNetSSD_deploy.prototxt.txt
+	--model MobileNetSSD_deploy.caffemodel --image images/example_05.jpg 
+	
+$ python deep_learning_object_detection.py
+	--prototxt MobileNetSSD_deploy.prototxt.txt
+	--model MobileNetSSD_deploy.caffemodel --image images/example_05.jpg 
+
+
