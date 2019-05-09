@@ -1,3 +1,17 @@
 referencia.txt
 __pycache__
 ssd300_mAP_77.43_v2
+yolov3.weights
+MobileNetSSD_deploy.caffemodel
+TensorFlow API SSD.ipynb
+TensorFlow API SSD-checkpoint.ipynb
+image1.jpg
+image2.jpg
+frozen_inference_graph.pb
+model.ckpt.data-00000-of-00001
+model.ckpt.index
+model.ckpt.meta
+yolov3.weights
+detection_1.jpg
+detection_2.jpg
+detections.gif
