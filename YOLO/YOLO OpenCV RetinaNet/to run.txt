@@ -1,0 +1,7 @@
+IMAGE
+
+python yolo.py --image images/baggage_claim.jpg --yolo yolo-coco
+python yolo.py --image images/living_room.jpg --yolo yolo-coco
+
+VIDEO
+python yolo_video.py --input videos/car_chase_01.mp4 --output output/car_chase_01.avi --yolo yolo-coco
